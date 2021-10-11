@@ -201,8 +201,8 @@ public class MyLinkedList<E> extends AbstractSequentialList<E> implements List<E
 				first = newNode;
 			}
 			next.setPrev(newNode);
+			size++;
 		}
-		size++;
 	}
 
 	@Override
